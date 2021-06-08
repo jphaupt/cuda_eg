@@ -1,0 +1,12 @@
+name = "cuda_eg"
+version = "0.1.0"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+
+[[ executable ]]
+name='ask'
+main="main.f90"
