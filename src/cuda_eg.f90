@@ -12,7 +12,7 @@ contains
     if(num_devices==0) then
         print*,"No CUDA-enabled devices found"
     else
-        print*,num_devices, " CUDA-enabled device(s) found"
+        print*,num_devices, "CUDA-enabled device(s) found"
     end if
   end subroutine check_cuda
 end module cuda_eg

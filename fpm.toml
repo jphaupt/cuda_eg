@@ -4,6 +4,9 @@ version = "0.1.0"
 auto-executables = true
 auto-tests = true
 auto-examples = true
+
+external-modules = ["cudafor", "curand", "cublas"]
+
 [install]
 library = false
 
